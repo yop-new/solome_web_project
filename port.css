@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;  
+    
+   
+    
+}
+.port{
+    left: 50px;
+    right: 50px;
+}
+header{
+    color: #0ef;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: hwb(60 7% 49%);
+    text-decoration: none;
+    font-weight: 600;
+}
+nav a{
+    font-size:18px;
+    color: #63e559;
+    text-decoration: none;
+    font-weight: 500px;
+    margin-left: 35px;
+    transition: 3s;
+}
+nav a:hover,
+nav a :active{
+     color:rgb(248, 19, 229);
+     border: #0d0b0b solid; 
+    border-width: 5px;
+    border-radius: 3px;
+    text-decoration: #0d0b0b;
+   
+
+}
+section{
+  
+   
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background-attachment: fixed;
+    background: #100363;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+}
+.description:hover{
+    color:rgb(227, 234, 133);
+    
+}
+section:nth-child(odd){
+    background: #addba8;
+}
+img{
+    position: relative;
+    margin-left: 750px;
+}
+.description{
+    border: white solid 5px;
+    border-radius:10px;
+    height: 200px;
+    top: 200px;
+    width: 400px;
+    position: relative;
+    margin-left: 300px;
+}
+#service {
+    color: #0d0b0b;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+/* Style for the container div */
+.fordivs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Style for the music div */
+.music1 {
+    background-color: #c47373;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the photo div */
+.photo img {
+    margin-left: 300px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Style for the music control div */
+.music_control audio {
+    width: 100%;
+    margin-top: 10px;
+}
+.img{
+max-width: 100%;
+max-height: 100%;
+}
+.imagesolo{
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+}
